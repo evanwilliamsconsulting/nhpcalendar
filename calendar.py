@@ -106,7 +106,7 @@ class MonthDayBlock(Block):
 		if self.dayOfMonth != -1:
 			c.drawString(self.dayLeft*inch, top*inch, str(self.dayOfMonth))  
 			if self.holiday is not None:
-				c.setFont('Vera', 6)  
+				c.setFont('Vera', 8)  
 				c.drawCentredString(self.holidayLeft*inch,self.holidayTop*inch,self.holiday);
 			if self.moon is not None:
 				c.setFont('moon_phases',12)

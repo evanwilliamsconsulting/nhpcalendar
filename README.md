@@ -17,3 +17,7 @@ holidays are stored in holidays.  One line per holiday.  One holiday per calenda
 
 pieces stores the name of each artwork that will be on the facing page per month.
 
+To use this software, install reportlab.org on Python 2.7.*
+and run
+
+python calendar.py <month_no>
